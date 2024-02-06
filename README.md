@@ -13,37 +13,55 @@ git congig --global user.email "johndoe@gmail.com
 - Default branch name
 - What for?
 
-> git config --global init.default branch main
+```
+git config --global init.default branch main
+```
 
 # Asking for help
-> git config -h
+
+```
+git config -h
+```
 
 # Turning this into git repository
 
 Create a new repository:
-> git init
+
+```
+ git init
+```
 
 Check the status of the repository
-> git status
+```
+git status
+```
 
 > [!NOTE]  
 > As for now the files are untracked. Any changes the git will not do anything.
 
 ## How do we track a file?
-> git add [filename]
+```
+git add [filename]
+```
 
 - ignore certain files: using .gitignore
 - then put the condition which file you do not want to show
 - privacy or unwanted files
 
 ## How do we track all files?
-> git add --all
+```
+git add --all
+```
 
 # how to commit?
-> git commit -m "Messages"j
+```
+git commit -m "Messages"
+```
 
 To see the changes for the commit:
-> git diff
+```
+git diff
+```
 
 Stages of files in the git:
 1. Working files - edits to the files
@@ -51,31 +69,45 @@ Stages of files in the git:
 3. Commit - deploy the codes
 
 # how do we return back to the staging process
-> git restore --staged [filename]
+```
+git restore --staged [filename]
+```
 
 # Bypass the staging steps
-> git commit -a -m "message"
+```
+git commit -a -m "message"
+```
 
 # delete files through git
-> git rm "filename"
-> git restore "filename"
+```
+git rm "filename"
+git restore "filename"
+```
 
 # renaming the file
-> git mv "old name" "new name"
-> git log
-> git commit -m "message" --amend
-> git help log
+```
+git mv "old name" "new name"
+git log
+git commit -m "message" --amend
+git help log
+```
 
 # Create a new brach 
-> git branch BRANCHNAME
-> git branch - to see how many branches we have
-> git switch -c BRANCHNAME - we create and we switch to a new branch called BRANCHNAME
+```
+git branch BRANCHNAME
+git branch - to see how many branches we have
+git switch -c BRANCHNAME - we create and we switch to a new branch called BRANCHNAME
+```
 
 # how to merge branch back to main
-> git merge -m "Message" (branch name that we want to merge with main)
+```
+git merge -m "Message" (branch name that we want to merge with main)
+```
 
 # How to delete branch
-
+```
+git branch -d OLDBRANCH
+```
 
 
 
