@@ -5,8 +5,10 @@ Git Learning for beginners. Get the Git installation file here
 Using gitbash:
 - specify our name
 
-> git config --global user.name "John Doe"
-> git congig --global user.email "johndoe@gmail.com
+```
+git config --global user.name "John Doe"
+git congig --global user.email "johndoe@gmail.com
+```
 
 - Default branch name
 - What for?
