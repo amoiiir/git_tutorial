@@ -109,6 +109,14 @@ git merge -m "Message" (branch name that we want to merge with main)
 git branch -d OLDBRANCH
 ```
 
+# After doing any changes to your code
+- actually do this to push your local repo to the remote repository
+```
+git add .
+git commit -m "Your commit message here"
+git push origin <branch-name>
+```
+
 
 
 
