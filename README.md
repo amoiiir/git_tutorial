@@ -117,6 +117,17 @@ git commit -m "Your commit message here"
 git push origin <branch-name>
 ```
 
+# When you are ready, this is the step to push code from local to remote repository
+
+```
+git init
+git add .
+git commit -m "Your commit message here"
+git push origin main
+git remote add origin <repository_URL>
+git push -u origin main
+```
+
 
 
 
