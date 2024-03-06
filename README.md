@@ -123,7 +123,6 @@ git push origin <branch-name>
 git init
 git add .
 git commit -m "Your commit message here"
-git push origin main
 git remote add origin <repository_URL>
 git push -u origin main
 ```
