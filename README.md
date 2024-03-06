@@ -1,6 +1,38 @@
 # git_tutorial
 Git Learning for beginners. Get the Git installation file here
 
+# When you are ready, this is the step to push code from local to remote repository
+
+```
+git init
+git branch -m master main (change the branch name to main)
+git add .
+git commit -m "Your commit message here"
+git remote add origin <repository_URL>
+git push -u origin main
+```
+
+> [!CAUTION]
+> To https://github...'
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https...'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+- usually this error means, you need to fetch the changes from remote origin to the local origin, so you need to fetch it first and then merge the old branch
+
+```
+git fetch origin
+git merge origin/main
+git push origin main
+```
+
+
+
+
 # Configure
 Using gitbash:
 - specify our name
@@ -116,29 +148,6 @@ git add .
 git commit -m "Your commit message here"
 git push origin <branch-name>
 ```
-
-# When you are ready, this is the step to push code from local to remote repository
-
-```
-git init
-git branch -m master main (change the branch name to main)
-git add .
-git commit -m "Your commit message here"
-git remote add origin <repository_URL>
-git push -u origin main
-```
-
-> [!CAUTION]
-> To https://github.com/amoiiir/Person_OOP_App.git
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/amoiiir/Person_OOP_App.git'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-
-- usually this error means, you need to fetch the changes from remote origin to the local origin
 
 
 
