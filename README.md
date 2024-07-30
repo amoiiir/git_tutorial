@@ -8,6 +8,7 @@ git init
 git add .
 git commit -m "Your commit message here"
 git remote add origin <repository_URL>
+git branch -M main
 git push -u origin main
 ```
 
