@@ -7,8 +7,8 @@ Git Learning for beginners. Get the Git installation file here
 git init
 git add .
 git commit -m "Your commit message here"
-git remote add origin <repository_URL>
 git branch -M main
+git remote add origin <repository_URL>
 git push -u origin main
 ```
 
