@@ -4,11 +4,12 @@ Git Learning for beginners. Get the Git installation file here
 # When you are ready, this is the step to push code from local to remote repository
 
 ```
+echo "# <repo-name>" >> README.md
 git init
-git add .
-git commit -m "Your commit message here"
+git add README.md
+git commit -m "first commit"
 git branch -M main
-git remote add origin <repository_URL>
+git remote add origin <repo url>
 git push -u origin main
 ```
 
