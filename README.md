@@ -4,12 +4,12 @@ Git Learning for beginners. Get the Git installation file here
 # When you are ready, this is the step to push code from local to remote repository
 
 ```
-echo "# <repo-name>" >> README.md
+echo "# flutter_todo" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin <repo url>
+git remote add origin <<repo URL>>
 git push -u origin main
 ```
 
